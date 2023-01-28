@@ -1,0 +1,122 @@
+.containerf {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0 2rem 0;
+}
+
+.footer {
+    background-color: dimgrey;
+}
+
+.footer .logofooter {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border: 1px solid blue; */
+}
+
+.item-columna {
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.item-columna h2 {
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+}
+
+.item-columna .h2 {
+    margin-bottom: 2rem;
+}
+
+.textofooter1 {
+    margin-left: auto;
+}
+
+.footer__contact {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 1em;
+    align-items: center;
+}
+
+.footer__contact--hora {
+    margin: 1em 0 2em;
+}
+
+.footer__contact {
+    margin-bottom: 1rem;
+}
+
+.footer__contact::after {
+    content: "Phone: +1-543-123-4567";
+    color: floralwhite;
+}
+
+.footer__contact--email::after {
+    content: "example@huddle.com";
+}
+
+.footer__contact--hora::after {
+    content: "Hora: Lunes a viernes: 9 am a 10 pm ";
+}
+
+.footer-mapa1::after {
+    content: "Av. Ricardo Elías Aparicio 240, Lima 15026 ";
+}
+
+.footer-mapa2::after {
+    content: "Av. Ricardo Elías Aparicio 240, Lima 15026 ";
+}
+
+.item-columna p {
+    font-size: 2rem;
+}
+
+.item-columna .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons .footer-link {
+    /* width="24" height="24" */
+    width: 4rem;
+    justify-self: center;
+    align-items: center;
+}
+
+
+/*  justify-content: center;*/
+
+.icons .footer-link img {
+    /* width="24" height="24" */
+    width: 4rem;
+}
+
+@media(min-width: 792px) {
+    .logofooter {
+        display: flex;
+        justify-content: center;
+        height: 130px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        /* border: 1px solid blue; */
+    }
+    .containerf {
+        max-width: 1460px;
+        width: 97%;
+    }
+    .textofooter1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

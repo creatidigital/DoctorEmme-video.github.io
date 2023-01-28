@@ -1,0 +1,124 @@
+/***/
+
+.contacto-presentacion {
+    background-image: url('../img/carusel_1.png');
+}
+
+.contacto-boton {
+    text-align: center;
+}
+
+
+/*************************/
+
+.section-title h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.team .logo-team img {
+    height: 106px;
+}
+
+@media(max-width: 1092px) {
+    /*<img src="./recusos/img/logo.jpg" style="height: 96px;">*/
+    .team .logo-team img {
+        height: 76px;
+    }
+    .section-title h2 {
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 792px) {
+    .team .logo-team img {
+        height: 66px;
+    }
+}
+
+.team {
+    background: #e9c5a373;
+}
+
+.team .member {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.team .member .pic {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.team .member img {
+    transition: all ease-in-out 0.4s;
+}
+
+.team .member:hover img {
+    transform: scale(1.1);
+}
+
+.team .member .member-info {
+    position: absolute;
+    bottom: -48px;
+    left: 20px;
+    right: 20px;
+    background: linear-gradient(360deg, rgb(92, 118, 141) 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+    padding: 15px 0;
+    border-radius: 4px;
+}
+
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.team .member h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #fff;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+}
+
+.team .member .social {
+    margin-top: 15px;
+}
+
+.team .member .social a {
+    transition: color 0.3s;
+    color: #fff;
+}
+
+.team .member .social a:hover {
+    color: #9eccf4;
+}
+
+.team .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+@media (max-width: 992px) {
+    .team .member {
+        margin-bottom: 100px;
+    }
+}
