@@ -44,13 +44,22 @@
     margin: 20px auto;
 }
 
+@media (min-width: 1300px) {
+    .profile-img {
+        width: 120%;
+        max-width: 700px;
+        transform: scaleX(-1);
+        border-radius: 7%;
+    }
+}
+
 @media (min-width: 950px) {
     .profile-info {
         margin-bottom: 0px;
     }
     .profile-img {
-        width: 200%;
-        max-width: 700px;
+        width: 120%;
+        max-width: 500px;
         transform: scaleX(-1);
         border-radius: 7%;
     }
