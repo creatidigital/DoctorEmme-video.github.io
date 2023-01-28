@@ -33,9 +33,7 @@
 */
 
 @media(max-width: 950px) {
-    .video1 {
-        height: 100vh;
-    }
+
     .video-container {
         position: absolute;
         top: 0;
