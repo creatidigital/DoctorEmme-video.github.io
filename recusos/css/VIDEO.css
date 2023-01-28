@@ -1,5 +1,6 @@
 .video1 {
     height: 100vh;
+      border: 1px solid rgb(10, 184, 253);
 }
 
 .video-container {
